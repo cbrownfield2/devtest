@@ -15,7 +15,7 @@ public class ParentViewMapperImpl implements ParentViewMapper{
    * using childRows foreign key (parentId).
    * @param parentRows  a List of parentRow objects
    * @param childRows   a List of childRow objects
-   * @return            the List of unique parentView objects with mapped childViews
+   * @return            the List of parentView objects with mapped childViews
    */
   public List<ParentView> mapRowsToViews(List<ParentRow> parentRows, List<ChildRow> childRows){
     List<ParentView> parentViews = new ArrayList<ParentView>();
